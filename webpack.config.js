@@ -2,7 +2,6 @@ const path = require("path");
 
 const postCSSPlugins = [
   require("postcss-import"),
-  require("postcss-mixins"),
   require("postcss-simple-vars"),
   require("postcss-nested"),
   require("autoprefixer"),
@@ -29,6 +28,11 @@ module.exports = {
             options: { postcssOptions: { plugins: postCSSPlugins } },
           },
         ],
+      },
+      
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
       },
     ],
   },
