@@ -44,4 +44,7 @@
       display: block;
     }
   }
+  &--is-visible {
+    display: block;
+  }
 }

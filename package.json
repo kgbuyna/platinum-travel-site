@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack",
+    "type": "module",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -34,7 +35,7 @@
     "postcss-simple-vars": "^6.0.3",
     "style-loader": "^2.0.0",
     "webpack": "^5.31.0",
-    "webpack-cli": "^4.6.0",
+    "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
   }
 }
